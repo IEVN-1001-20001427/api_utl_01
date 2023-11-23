@@ -1,0 +1,19 @@
+{%extends "layout.html"%}
+
+{%block content%}
+
+<div class="container">
+    <div class="row">
+        <h1>hola mundo 2</h1>
+        
+        <h2>{{title}}</h2>
+
+        <ol>
+            {%for val in list%}
+            <li>{{val}}</li>
+            {%endfor%}
+        </ol>
+    </div>
+</div>
+
+{%endblock%}
