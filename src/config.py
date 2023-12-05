@@ -3,7 +3,7 @@ class developmetConfig():
     MYSQL_HOST='localhost'
     MYSQL_USER='root'
     MYSQL_PASS=''
-    MYSQL_DB='api_utl'
+    MYSQL_DB='Cafeteriadb'
 
 config={
     'development': developmetConfig
